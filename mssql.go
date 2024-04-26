@@ -15,9 +15,9 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/denisenkom/go-mssqldb/internal/querytext"
-	"github.com/denisenkom/go-mssqldb/msdsn"
 	"github.com/golang-sql/sqlexp"
+	"github.com/onuryurdupak/go-mssqldb/internal/querytext"
+	"github.com/onuryurdupak/go-mssqldb/msdsn"
 )
 
 // ReturnStatus may be used to return the return value from a proc.
